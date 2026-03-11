@@ -2,8 +2,9 @@ package com.recipe.meal_planner.controller;
 
 import com.recipe.meal_planner.model.WeeklyPlan;
 import com.recipe.meal_planner.service.MealPlannerService;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+//import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MealPlannerController {
