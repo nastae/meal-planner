@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
-//@SpringBootTest
+@SpringBootTest
 //@ActiveProfiles("test")
 class MealPlannerApplicationTests {
 
-//	@Test
-//	void contextLoads() {
-//		// Nothing needed here — just tests if context loads
-//	}
+	@Test
+	void contextLoads() {
+		// Nothing needed here — just tests if context loads
+	}
 
 }
